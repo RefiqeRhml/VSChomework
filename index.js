@@ -1,0 +1,1 @@
+console.log(Math.floor(Math.random() * (100 - 95 + 1) + 95))
