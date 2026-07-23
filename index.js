@@ -1,3 +1,5 @@
-let a = 12345;
-let b = 98765;
-console.log(String(c = 12345 * 98765)[5]);
+let user = prompt("");
+console.log(user.length);
+console.log(user.startsWith("code"));
+console.log(user.endsWith("code"));
+console.log(user.replaceAll("t", "####"));
