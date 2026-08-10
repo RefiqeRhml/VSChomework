@@ -1,12 +1,19 @@
-function user(username) {
-  console.log(`${username} is active now`);
+/*let text = prompt("Metn daxil edin:");
+for (let i = 0; i < text.length; i++){
+  if (text >= 0) {
+    console.log("Reqem var");
+  } else {
+    console.log("Reqem yoxdur");
+  }
 }
-user("Alex");
-user("Sarah");
-user("John");
+*/
 
-function num(a, b, c) {
-  const max = Math.max(a, b, c);
-  console.log(max);
+function number(phone){
+  if(phone.startsWith("+7") && phone.length == 12){
+    return true;
+  } else{
+    return false;
+  }
 }
-num(10, 45, 23);
+console.log(number("+71234567890"));
+console.log(number("+712345678"));
