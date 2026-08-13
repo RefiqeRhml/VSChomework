@@ -1,19 +1,8 @@
-/*let text = prompt("Metn daxil edin:");
-for (let i = 0; i < text.length; i++){
-  if (text >= 0) {
-    console.log("Reqem var");
-  } else {
-    console.log("Reqem yoxdur");
-  }
+function isLucky(number) {
+    let num = String(number);
+    let sum1 = +num[0] + +num[1] + +num[2];
+    let sum2 = +num[3] + +num[4] + +num[5];
+    return sum1 == sum2;
 }
-*/
-
-function number(phone){
-  if(phone.startsWith("+7") && phone.length == 12){
-    return true;
-  } else{
-    return false;
-  }
-}
-console.log(number("+71234567890"));
-console.log(number("+712345678"));
+console.log(isLucky(234801));
+console.log(isLucky(236498));
