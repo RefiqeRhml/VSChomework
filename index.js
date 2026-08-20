@@ -9,7 +9,7 @@ function word(arr){
 }
 console.log(word(['Green', 'Red', 'Blue']));
 
-if (name.startsWith('A') || name.startsWith('a'))
+
 
 console.log("task 2")
 
